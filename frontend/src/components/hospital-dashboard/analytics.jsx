@@ -16,7 +16,7 @@ export default function Analytics() {
 
         try {
             const res = await fetch(
-                `http://localhost:4000/api/hospital/predict-patients?date=${selectedDate}`,
+                `http://127.0.0.1:4000/api/hospital/predict-patients?date=${selectedDate}`,
                 {
                     method: "GET",
                     headers: {

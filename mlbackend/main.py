@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 
 # Load dataset
-file_path = r"/home/tanmay08/Desktop/PC/vsmhackathon/mlbackend/data.csv"
+file_path = r"mlbackend\data.csv"
 df = pd.read_csv(file_path)
 
 df['D.O.A'] = pd.to_datetime(df['D.O.A'], errors='coerce')
@@ -68,7 +68,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained models
-with open("patient_prediction_model.pkl", "rb") as model_file:
+with open("mlbackend/patient_prediction_model.pkl", "rb") as model_file:
     models = joblib.load(model_file)
 
 rf_emergency = models["rf_emergency"]
