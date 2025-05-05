@@ -6,7 +6,7 @@ export const sendAvailablity = async (
     email, hospitalName
 ) => {
     try {
-        console.log(email, hospitalName);
+        console.log("Email and Hospital",email, hospitalName);
         const transporter = nodemailer.createTransport({
             host: process.env.MAIL_HOST,
             port: 465,

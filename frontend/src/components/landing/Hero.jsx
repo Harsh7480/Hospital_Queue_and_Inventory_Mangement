@@ -13,11 +13,12 @@ export default function Hero() {
                     className="md:w-1/2 mb-10 md:mb-0"
                 >
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                        Streamline Hospital Bed Management
+                        Providing an Exceptional Patient Experience
                     </h1>
                     <p className="text-xl text-gray-600 mb-8">
-                        Efficient queue management for hospitals and patients.
-                        Real-time bed availability and seamless coordination.
+                    Welcome, where exceptional patient experiences are our priority. With compassionate care, 
+                    state-of-the-art failities, and a paient-centered approach, we're dedicated to ypur well-being. 
+                    Trust us with your health and experience the difference.
                     </p>
                     <div className="flex space-x-4">
                         <motion.button
@@ -64,7 +65,7 @@ export default function Hero() {
                     className="md:w-1/2"
                 >
                     <img
-                        src="/placeholder.svg?height=400&width=600"
+                        src="https://www.appletechsoft.com/wp-content/uploads/2020/06/Hospital-Management-System.jpg"
                         alt="Hospital Queue Management System"
                         className="rounded-lg shadow-lg w-full h-full"
                     ></img>

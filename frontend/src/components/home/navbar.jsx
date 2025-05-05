@@ -13,8 +13,8 @@ export default function Navbar() {
             <div className="p-4 flex h-16 items-center justify-between px-4">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
-                    <Link to="/" className="font-bold text-xl">
-                        HospitalQ
+                    <Link to="/" className="font-bold text-xl text-blue-900">
+                        MedcureCenter+
                     </Link>
                 </div>
 

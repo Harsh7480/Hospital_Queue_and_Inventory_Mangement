@@ -12,7 +12,7 @@ export default function Header() {
     };
 
     return (
-        <header className="bg-white fixed top-0 left-0 w-full shadow-sm z-50">
+        <header className="bg-gray-100 fixed top-0 left-0 w-full shadow-sm z-50">
             <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Logo */}
                 <motion.div
@@ -20,13 +20,13 @@ export default function Header() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <Link to="/" className="text-2xl font-bold text-gray-800">
-                        HospitalQ
+                    <Link to="/" className="text-2xl font-bold text-blue-900">
+                        MedcureCenter+
                     </Link>
                 </motion.div>
 
                 {/* Desktop Navigation */}
-                <div className="hidden md:flex space-x-6">
+                <div className="hidden md:flex space-x-6">  
                     <NavLink onClick={() => handleScroll("features")}>
                         Features
                     </NavLink>
